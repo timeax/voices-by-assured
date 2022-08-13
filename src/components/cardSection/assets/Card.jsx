@@ -71,7 +71,7 @@ const Card = () => {
     //--
     const handleCard = async (option) => {
         const cardClone = setClone(printRef.current);
-        console.log(cardClone)
+        // console.log(cardClone)
         //-----
         if(cardClone) printRef.current.parentElement.appendChild(cardClone);
         else return;
